@@ -23,7 +23,7 @@ const DetailPage = () => {
 
   useEffect(() => {
     getLink()
-  }, [])
+  }, [getLink])
 
   if (loading) {
     return <Loader />
